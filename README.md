@@ -1,1 +1,3 @@
-# sample_golang
+## 前提
+[Docker](https://docs.docker.com/install/)をインストール  
+
