@@ -20,7 +20,7 @@ func Index(rw http.ResponseWriter, request *http.Request) {
 
 // parse HTML
 func parseTemplate() *template.Template {
-	tmpl, err := template.ParseGlob("./app/view/*.html")
+	tmpl, err := template.ParseGlob("./../app/view/*.html")
 	if err != nil {
 		outputErrorLog("HTML パース 失敗", err)
 	}

@@ -5,6 +5,6 @@ services:
     ports:
       - 8000:8080
     volumes:
-      - ../../go/src/github.com/takuma-goto310/sample_golang
-    command: go run github.com/takuma-goto310/sample_golang/app/main.go
+      - .:/go/src/github.com/takuma-goto310/sample_golang
+    command: go run ../main.go
     container_name: sample-go
