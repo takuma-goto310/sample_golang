@@ -11,6 +11,7 @@ func Index(rw http.ResponseWriter, request *http.Request) {
 
 	log.Println("call Index")
 
+	// htmlを表示
 	err := parseTemplate().ExecuteTemplate(rw, "index.html", "")
 	if err != nil {
 		outputErrorLog("HTML 描画 エラー", err)
