@@ -15,3 +15,7 @@
 ターミナルにてsample_golang/run配下でコマンド 'go run main.go' で起動
 ### for docker
 - comming soon
+
+## 検証方法
+webブラウザーで下記をURLに入力
+'http://localhost:8080/index'
