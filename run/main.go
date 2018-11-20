@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/takuma-goto310/sample_golang/app/controller"
-	// "./controller"
+	// "github.com/takuma-goto310/sample_golang/app/controller" // for docker
+	"../app/controller" // for local
 )
 
 func main() {
