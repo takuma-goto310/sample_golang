@@ -15,7 +15,7 @@ func main() {
 // ルーティング設定
 func setRoute() {
 	// 静的ファイルのルーティング
-	http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(http.Dir("./public"))))
+	http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(http.Dir("../public"))))
 	// TOP画面
 	http.HandleFunc("/index", controller.Index)
 }
